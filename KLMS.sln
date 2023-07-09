@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLMS.API", "KLMS.API\KLMS.API.csproj", "{1C466C42-7871-4BA2-83B0-AF91284A4301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLMS.Application", "KLMS.Application\KLMS.Application.csproj", "{89552ACC-A2D6-4FCB-8031-3F7020B62A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLMS.Domain", "KLMS.Domain\KLMS.Domain.csproj", "{9A31C878-D7F7-4059-9F9D-9F3AC677D737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLMS.Persistence", "KLMS.Persistence\KLMS.Persistence.csproj", "{FDD081C5-EBD1-4B0B-A85D-1A1E0B4386FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLMS.Application.UnitTests", "KLMS.Application.UnitTests\KLMS.Application.UnitTests.csproj", "{1E637D23-3442-42E0-8166-B00A55BF4CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLMS.API.UnitTests", "KLMS.API.UnitTests\KLMS.API.UnitTests.csproj", "{D7EF0D98-9DD3-4F91-B321-83C59C9C4823}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C466C42-7871-4BA2-83B0-AF91284A4301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C466C42-7871-4BA2-83B0-AF91284A4301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C466C42-7871-4BA2-83B0-AF91284A4301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C466C42-7871-4BA2-83B0-AF91284A4301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89552ACC-A2D6-4FCB-8031-3F7020B62A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89552ACC-A2D6-4FCB-8031-3F7020B62A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89552ACC-A2D6-4FCB-8031-3F7020B62A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89552ACC-A2D6-4FCB-8031-3F7020B62A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A31C878-D7F7-4059-9F9D-9F3AC677D737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A31C878-D7F7-4059-9F9D-9F3AC677D737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A31C878-D7F7-4059-9F9D-9F3AC677D737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A31C878-D7F7-4059-9F9D-9F3AC677D737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD081C5-EBD1-4B0B-A85D-1A1E0B4386FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD081C5-EBD1-4B0B-A85D-1A1E0B4386FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD081C5-EBD1-4B0B-A85D-1A1E0B4386FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD081C5-EBD1-4B0B-A85D-1A1E0B4386FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E637D23-3442-42E0-8166-B00A55BF4CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E637D23-3442-42E0-8166-B00A55BF4CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E637D23-3442-42E0-8166-B00A55BF4CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E637D23-3442-42E0-8166-B00A55BF4CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7EF0D98-9DD3-4F91-B321-83C59C9C4823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7EF0D98-9DD3-4F91-B321-83C59C9C4823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7EF0D98-9DD3-4F91-B321-83C59C9C4823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7EF0D98-9DD3-4F91-B321-83C59C9C4823}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50351F34-4BB5-47D9-B60E-DA22964C0816}
+	EndGlobalSection
+EndGlobal
