@@ -1,6 +1,8 @@
-﻿namespace KLMS.Domain
+﻿using KLMS.Domain.Common;
+
+namespace KLMS.Domain
 {
-    public class Users
+    public class Users : BaseEntity
     {
         public int EmployeeId { get; set; }
         public string EmployeeName { get; set; }

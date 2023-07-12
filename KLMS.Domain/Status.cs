@@ -1,6 +1,8 @@
-﻿namespace KLMS.Domain
+﻿using KLMS.Domain.Common;
+
+namespace KLMS.Domain
 {
-    public class Status
+    public class Status : BaseEntity
     {
         public string StatusType { get; set; }
     }

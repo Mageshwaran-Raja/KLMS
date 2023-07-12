@@ -1,6 +1,8 @@
-﻿namespace KLMS.Domain
+﻿using KLMS.Domain.Common;
+
+namespace KLMS.Domain
 {
-    public class TrainingTypes
+    public class TrainingTypes : BaseEntity
     {
         public string Type { get; set; }
     }

@@ -1,6 +1,8 @@
-﻿namespace KLMS.Domain
+﻿using KLMS.Domain.Common;
+
+namespace KLMS.Domain
 {
-    public class Trainings
+    public class Trainings : BaseEntity
     {
         public string TrainingName { get; set; }
         public string TrainingDescription { get; set; }

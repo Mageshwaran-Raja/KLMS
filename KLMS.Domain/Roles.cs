@@ -1,6 +1,8 @@
-﻿namespace KLMS.Domain
+﻿using KLMS.Domain.Common;
+
+namespace KLMS.Domain
 {
-    public class Roles
+    public class Roles : BaseEntity
     {
         public string RoleName { get; set; }
     }
